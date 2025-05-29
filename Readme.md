@@ -67,7 +67,8 @@ Transform messy, natural language instructions into clean, structured task data.
 
 ### Prerequisites
 - Python 3.8+
-- OpenRouter API Key
+- TogetherAI API Key
+- Logfire API Key
 
 ### 1. Clone the repository
 ```bash
@@ -77,7 +78,8 @@ cd task-allocation-agent
 
 ### 2. Install dependencies
 ```bash
-pip install pydantic-ai logfire nest-asyncio python-dotenv openai
+uv venv
+uv sync
 ```
 
 ### 3. Environment Configuration
@@ -87,8 +89,13 @@ TOGETHERAI_API_KEY=your_togetherai_api_key_here
 LOGFIRE_TOKEN=your_logfire_token_here
 ```
 
-### 4. Get your OpenRouter API Key
-1. Sign up at [OpenRouter.ai](https://openrouter.ai/)
+### 4. Get your TogetherAI API Key
+1. Sign up at [Together.ai](https://www.together.ai/)
+2. Generate an API key
+3. Add it to your `.env` file
+
+### 5. Get your Logfire API Key
+1. Sign up at [LogFire](https://pydantic.dev/logfire)
 2. Generate an API key
 3. Add it to your `.env` file
 
@@ -194,7 +201,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Built by [@Ak62007](https://github.com/Ak62007) using:
 - [Pydantic AI](https://github.com/astral-sh/pydantic-ai) - AI agent framework
-- [OpenRouter](https://openrouter.ai/) - AI model access
+- [Together.ai](https://www.together.ai/) - AI model access
 - [Logfire](https://logfire.dev/) - Observability platform
 
 ---
