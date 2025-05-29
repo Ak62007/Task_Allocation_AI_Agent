@@ -4,7 +4,7 @@ This is a lightweight AI agent built using [Pydantic AI](https://github.com/astr
 
 ## 🔧 Tech Stack
 
-- 🧠 **OpenRouter API** with `Mixtral-8x7B-Instruct` model for language understanding
+- 🧠 **TogetherAI API** with `Mixtral-8x7B-Instruct` model for language understanding
 - ✅ **Pydantic AI** for intelligent agent orchestration
 - 🔥 **Logfire** for intelligent logging and monitoring
 - 🐍 **Python** with modern dependency management
@@ -83,7 +83,8 @@ pip install pydantic-ai logfire nest-asyncio python-dotenv openai
 ### 3. Environment Configuration
 Create a `.env` file in the root directory:
 ```env
-OPENROUTER_API_KEY=your_openrouter_api_key_here
+TOGETHERAI_API_KEY=your_togetherai_api_key_here
+LOGFIRE_TOKEN=your_logfire_token_here
 ```
 
 ### 4. Get your OpenRouter API Key
