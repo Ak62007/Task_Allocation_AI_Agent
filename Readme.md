@@ -209,8 +209,8 @@ Built by [@Ak62007](https://github.com/Ak62007) using:
 ## ⚠️ Important Notes
 
 - **Never commit your `.env` file** - it contains sensitive API keys
-- **API Costs**: Be mindful of OpenRouter usage charges
-- **Rate Limits**: Respect OpenRouter's rate limiting policies
+- **API Costs**: Be mindful of TogetherAI usage charges
+- **Rate Limits**: Respect TogetherAI's rate limiting policies
 - **Data Privacy**: Don't include sensitive information in task descriptions
 
 ---
@@ -226,12 +226,12 @@ pip install pydantic-ai
 
 **API Key not found**
 - Ensure your `.env` file is in the root directory
-- Check that `OPENROUTER_API_KEY` is spelled correctly
+- Check that `TOGETHERAI_API_KEY` is spelled correctly
 - Verify your API key is valid on OpenRouter
 
 **Model not supported error**
 - Use one of the supported models listed above
-- Check OpenRouter for model availability
+- Check TogetherAI for model availability
 
 ### Getting Help
 
