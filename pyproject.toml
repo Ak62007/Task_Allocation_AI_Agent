@@ -1,0 +1,11 @@
+[project]
+name="daily-task-manager"
+version="0.1.0"
+description="takes natural language and stores tasks in json format"
+authors="Aditya"
+dependencies=[
+    "pydantic",
+    "openai",
+    "pydantic-ai",
+    "logfire",
+]
